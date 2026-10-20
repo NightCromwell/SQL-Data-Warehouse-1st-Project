@@ -1,5 +1,5 @@
 # SQL-Data-Warehouse-1st-Project
-In this project I made a Data Warehouse for a little store in my neighborhood with the following characteristics:
+In this project I made a Data Warehouse for a little store in my neighborhood that is made with the as the following:
 
 ## Porpoise: 
 To demonstrate a comprehensible the building of a Data Warehouse that incorporates data ingestion, data cleansing and generates data
