@@ -1,8 +1,12 @@
-/*
+
 --This is the way you can load a csv file into a table using the BULK INSERT 
 --There is a lot more options that the 3 that we used in the WIRH so check them
 --also the method that is used is the truncate table so we dont have eny errors
 
+--And create a procedure becouse this will be usded in a daily basis
+
+CREATE OR ALTER PROCEDURE bronze.load_bronze AS
+BEGIN 
 --===================================================================================================================
 TRUNCATE TABLE bronze.crm_cust_info
 BULK INSERT bronze.crm_cust_info
@@ -67,4 +71,4 @@ WITH
 	FIELDTERMINATOR = ',',
 	TABLOCK
 );
-*/
+END
