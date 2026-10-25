@@ -1,3 +1,4 @@
+--Script porpuse: upload the information from the csv files to the bronze layer
 USE [DataWarehouseProject]
 GO
 /****** Object:  StoredProcedure [bronze].[load_bronze]    Script Date: 10/23/2026 5:55:28 PM ******/
