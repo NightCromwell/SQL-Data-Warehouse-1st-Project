@@ -13,8 +13,8 @@ CREATE TABLE bronze.crm_cust_info
 	cst_key NVARCHAR(50),
 	cst_firstname NVARCHAR(50),
 	cst_lastname NVARCHAR(50),
-	cst_marital_status CHAR(1) CHECK (cst_marital_status IN ('S', 'M', 'D', 'W', 'P')),
-	cst_gndr CHAR(1) CHECK (cst_gndr IN ('M', 'F')),
+	cst_marital_status NVARCHAR(20),
+	cst_gndr NVARCHAR(20),
 	cst_create_date DATE
 );
 --==============================================================================================================
